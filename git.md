@@ -52,5 +52,20 @@ Veiw log of commits
 
 Push the local repository to github
 -------------------------------------
+`git push https://github.com/leimglg/study-notes` <++>
+`git push`  
+
+Clone and pull a repository from github
+-------------------------------------
+
+Clone a repository from github (for initiating)  
+`git clone repository_address`  
+
+Check if the remote file is different  
+`git fetch`  
+
+Pull a repository from github (for updating changes made by others)  
+`git pull`  
+
 
 
