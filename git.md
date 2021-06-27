@@ -52,7 +52,13 @@ Veiw log of commits
 
 Push the local repository to github
 -------------------------------------
-`git push https://github.com/leimglg/study-notes` <++>
+Initialize the remote repository on github  
+`git remote add origin https://github.com/leimglg/study-notes`  
+
+Push for the first time  
+`git push --set-upstream origin master`  
+
+Push  
 `git push`  
 
 Clone and pull a repository from github
