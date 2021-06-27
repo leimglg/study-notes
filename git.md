@@ -18,19 +18,24 @@ Add a file to track
 `git add file_to_commit`  
 
 Stage tracked files  
-`git add -a`  
+`git commit -a`  
 
-Commit  
-`git commit -m "Comment`  
+Commit with a message  
+`git commit -m "Message"`  
 
-To do the above to steps
-`git commit -am "comment`  
+To do the above two steps  
+`git commit -am "Message"`  
 
-Romove a tracked file
+Change the last message  
+`git commit --amend -m "Right message"`  
+
+Romove a tracked file  
 `git rm --cached file_to_romove`  
 
-Romove a tracked folder
+Romove a tracked folder  
 `git rm -r --cached folder_to_romove`  
 
+Git recover a file to last staged status
+`git reset HEAD file_to_unstage`
 
 
