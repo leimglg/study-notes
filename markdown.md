@@ -133,7 +133,7 @@ Block
 ```
 
 --------
-- [x] check list 1
+- [ ] check list 1
 	- [ ] 1.1
 - [x] check list 2
 ```

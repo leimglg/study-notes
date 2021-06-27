@@ -61,6 +61,9 @@ Push for the first time
 Push  
 `git push`  
 
+Save the username and password  
+`git config credential.helper store`  
+
 Clone and pull a repository from github
 -------------------------------------
 
