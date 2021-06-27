@@ -47,7 +47,7 @@ View blame info
 Return a file to last staged status  
 `git reset HEAD file_to_unstage`  
 
-Veiw log of commits  
+View log of commits  
 `git log`  
 
 Push the local repository to github
@@ -70,10 +70,10 @@ Clone and pull a repository from github
 Clone a repository from github (for initiating)  
 `git clone repository_address`  
 
-Check if the remote file is different  
+Check if the remote file is different (possible changes made by others)  
 `git fetch`  
 
-Pull a repository from github (for updating changes made by others)  
+Pull the repository from github (for updating changes made by others)  
 `git pull`  
 
 
