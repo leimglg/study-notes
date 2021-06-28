@@ -20,6 +20,9 @@ convert the current directory to a repository
 Add a file to track  
 `git add file_to_commit`  
 
+List all tracked files  
+`git ls-files`  
+
 Stage tracked files  
 `git commit -a`  
 
@@ -76,5 +79,11 @@ Check if the remote file is different (possible changes made by others)
 Pull the repository from github (for updating changes made by others)  
 `git pull`  
 
+Pull from github and overwrite everything local
+------------------------------------------------------------
 
+Fetch to update all origin/master to latest  
+`git fetch --all`  
+Reset with origin/master  
+`git reset --hard origin/master`  
 
