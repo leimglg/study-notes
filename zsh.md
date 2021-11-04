@@ -22,6 +22,8 @@ make && make install
 ```
 [ -f $HOME/bin/zsh ] && exec $HOME/bin/zsh -l
 ```
+__sfaf__ <++>
+  sfaf
 
 
 
