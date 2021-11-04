@@ -77,6 +77,7 @@ Clone and pull a repository from github
 
 Clone a repository from github (for initiating)  
 `git clone repository_address`  
+`git clone https://<tokenhere>@github.com/<user>/<repo>.git`  
 
 Check if the remote file is different (possible changes made by others)  
 `git fetch`  
