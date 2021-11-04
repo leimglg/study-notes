@@ -55,8 +55,13 @@ View log of commits
 
 Push the local repository to github
 -------------------------------------
-Initialize the remote repository on github  
+If asked password, input token  
+
+Initialize the remote repository on github (requires config token elsewhere)  
 `git remote add origin https://github.com/leimglg/study-notes`  
+
+If already initialized, change the url with a token  
+`git remote set-url origin https://<token>@github.com/<username>/<repo>`  
 
 Push for the first time  
 `git push --set-upstream origin master`  
