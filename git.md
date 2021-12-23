@@ -1,6 +1,11 @@
 Git Notes
 =====================================
 
+Important
+-------------------------------------
+set line ending to unix style
+`git config --global core.autocrlf true`
+
 User name and email
 -------------------------------------
 
