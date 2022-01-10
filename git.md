@@ -143,6 +143,10 @@ Push
 Save the username and password  
 `git config credential.helper store`  
 
+Download the remote repository to __refs/remotes/<remote>__ without affecting local branches.  
+`git fetch`  
+use `git fetch` and then `git merge` will give you a chance to decide which changes to keep in comparison to `git pull`
+
 Clone and pull a repository from github
 -------------------------------------
 
