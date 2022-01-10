@@ -4,16 +4,24 @@ Git Notes
 Summarize
 -------------------------------------
 `repository`: a container for a project that is tracked by Git, use `git init` to initialize a repository, which whill create a __.git__ folder that contains all the tracking information. Local repository is an isolated repository stored on your own computer. Remote repository is stored outside of your isolated local system, usually on a remote server. It's especially useful when working in teams.  
+
 `track`: The timelines and modifications of the files you are tracking. You can start tracking files using `git add <filename>` or `git add .`    
+
 `stage`:  a place that holds all the files that ready to be commited. Only staged files can be commited. You can stage a file using `git add <filename>` or `git add .`  
+
 `commit`: a "snapshot" of the code at a particular time. when you made substantial changes to a extent, you would like to do a 'commit' to leave a message about what you did with `git commit -m "message"`. Only the staged files will be committed. And you can always go back and forth between commits using `git checkout <branchname/commit-hash>`  
 You can stage all the tracked files and commit using `git commit -am "message"`  
+
 `checkout`: checkout the files at certain commit, if checkout a branch, will switch to the latest commit of the branch. `git checkout <branchname/commit-hash>`  
+
 `status`: all the changes in the repository, file modifications, untraked files, `git status`  
-`stash`:  
+
 `log`: view the commit history and all the messages you leave when committing, including time, author, message, file change, `git log`  
+
 `branch`: use another branch to make modifications that won't affect current branch, you can merge the modifications later. Use `git branch` to list the branches, `git branch <newbranch>` to create a new branch, `git checkout <branch>` to switch between branches, `git branch -d  <branchname>` to delete a branch  
+
 `merge`: merge the code changes that you made in an individual branch to a different branch, `git merge <branchname>` to merge a branch to current branch  
+
 `stash`: you can stash your uncommitted changes, switch to another branch or commit, then apply the stash. This can be used when you made modifications to a wrong branch and haven't commit yet. `git stash` will remove the uncommitted changes and store the changes in a "__stash__", `git stash list` will list all the __stashes__, `git stash pop` to apply and delete all the stash, and `git stash pop 1` to apply and delete a particular stash. `git stash apply` to apply stashes, `git stash drop` to delete the stashes.  
 
 Important
