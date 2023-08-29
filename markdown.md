@@ -74,8 +74,8 @@ Name Link, `[Name Link](http://www.google.com)`
 `;l`
 
 
-[Goto # 0](#0 "Information: Goto # 0")  
-Goto # 0, `[Goto # 0](#0 "Information: Goto # 0")`  
+[Goto # Heading 1](#Heading-1 "Information: Goto # Heading 1")  
+Goto # 0, `[Goto # Heading 1](#Heading-1 "Information: Goto # Heading 1")`  
 
 ![image](http://via.placeholder.com/200x150 "Optional information")  
 `![image](http://via.placeholder.com/200x150 "Optional information")`  
